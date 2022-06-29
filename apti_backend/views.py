@@ -270,7 +270,7 @@ def generate_test_analysis(email, uid):
 def analytics(request):
     """
     {
-        "email": "demouser6@gmail.com",
+        "email": "rr@gmail.com",
         "subject" : "overall"
     }
     """
@@ -492,7 +492,7 @@ def college_list(request):
 def weakest_topics(request):
     """
     {
-        "email" : "demouser6@gmail.com"
+        "email" : "rr@gmail.com"
     }
     """
     serializer = EmailSerializer(data=request.data)
